@@ -1,7 +1,7 @@
 const { ethers } = require("hardhat")
 const { MerkleTree } = require('merkletreejs')
 const keccak256 = require('keccak256')
-const { expect, assert } = require("chai")
+const { expect } = require("chai")
 
 /* this is just test data */
 /* snapshot will come from this code https://github.com/Developer-DAO/erc721-snapshot */
